@@ -11,7 +11,7 @@ namespace Task1
         static void Main(string[] args)
         {
             Project pro1 = new Project("Software Development Project");
-            pro1.Pass(new AbsoluteGradedCourse("Software Engineering", 30));
+            pro1.Pass(new AbsoluteGradedCourse("Software Engineering", 80));
             pro1.Pass(new AbsoluteGradedCourse("Database Mangement", 75));
             pro1.Pass(new GradedCourse("Programming Fundamentals",30));
             pro1.Pass(new GradedCourse("Algorithms and Data Structures",70));
